@@ -1,0 +1,25 @@
+#accordeon {
+  background-color: aqua;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 500px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    background: #c0c0c0;
+    cursor: pointer;
+  }
+
+  .acc-body {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #c0c0c0;
+
+    display: none;
+  }
+}
